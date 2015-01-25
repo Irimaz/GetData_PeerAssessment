@@ -1,7 +1,7 @@
 The tidy data submitted for peer assessment is "Final_tidy_data_grouped.txt" which can be downloaded from Coursera. In order to view the tidy data, please download it to your working directory and read and view it using the R commands below:
 
-
-- data <- read.table("./Final_tidy_data_grouped.txt", header = TRUE)
+- fName <- "./Replace this with the downloaded file name.txt"
+- data <- read.table(fName, header = TRUE)
 - View(data)
 
 
