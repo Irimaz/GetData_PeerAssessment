@@ -66,7 +66,3 @@ by_sbj_act <- group_by(combined_mnstd, SubjectID, Activity)
 grouped_data <- summarise_each(by_sbj_act, funs(mean))
 # Writing the tidy dataset to a file
 write.table(grouped_data, file="./Final_tidy_data_grouped.txt", row.name=FALSE)
-
-
-
-
